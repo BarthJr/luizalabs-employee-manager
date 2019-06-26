@@ -9,6 +9,7 @@ pytest-cov = "*"
 
 [packages]
 flake8 = "*"
+django = "*"
 
 [requires]
 python_version = "3.7"
