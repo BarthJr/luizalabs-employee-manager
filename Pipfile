@@ -10,6 +10,7 @@ pytest-cov = "*"
 [packages]
 flake8 = "*"
 django = "*"
+djangorestframework = "*"
 
 [requires]
 python_version = "3.7"
