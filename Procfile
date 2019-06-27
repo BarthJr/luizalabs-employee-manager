@@ -1,1 +1,1 @@
-web: gunicorn pypro.wsgi --log-file -
+web: gunicorn luizalabs_employee_manager.wsgi --log-file -
