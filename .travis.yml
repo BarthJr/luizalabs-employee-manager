@@ -15,8 +15,10 @@ install:
   - pipenv sync -d
   - cp contrib/env-sample .env
 
-
 script:
   - pipenv run flake8 .
-  - pipenv run pytest
+  - pipenv run pytest --cov
+
+after_success:
+  - codecov
 
