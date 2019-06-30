@@ -38,6 +38,7 @@ python manage.py runserver
 
 
 # Endpoints RESTful
+- **Base URL:** http://127.0.0.1:8000/api/v1
 ## Department
 **HTTP Method**|**URI Path**|**Description**
 :--|:--|:--
@@ -59,21 +60,21 @@ DELETE|/employee/{id}|Deletes employee by id
 # API Examples
 ## Create Department
 ```console
-curl -X POST http://127.0.0.1:8000/department/ -d "name=TI"
+curl -X POST http://127.0.0.1:8000/api/v1/department/ -d "name=TI"
 ```
 ## Create Employee
 ```console
-curl -X POST http://127.0.0.1:8000/employee/ -d "name=Junior Barth&email=junior.barth@luizalabs.com&department=TI"
+curl -X POST http://127.0.0.1:8000/api/v1/employee/ -d "name=Junior Barth&email=junior.barth@luizalabs.com&department=TI"
 ```
 
 ## Update Employee
 ```console
-curl -X PUT http://127.0.0.1:8000/employee/1/ -d "name=Barth&email=junior.barth@luizalabs.com&department=TI"
+curl -X PUT http://127.0.0.1:8000/api/v1/employee/1/ -d "name=Barth&email=junior.barth@luizalabs.com&department=TI"
 ```
 
 ## Get Department
 ```console
-curl http://127.0.0.1:8000/department/
+curl http://127.0.0.1:8000/api/v1/department/
 ```
 - Response
 ```console
@@ -86,6 +87,6 @@ curl http://127.0.0.1:8000/department/
 ```
 ## Delete Department
 ```console
-curl -X DELETE http://127.0.0.1:8000/department/1/
+curl -X DELETE http://127.0.0.1:8000/api/v1/department/1/
 ```
 
