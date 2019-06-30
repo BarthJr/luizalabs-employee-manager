@@ -26,5 +26,5 @@ router.register(r'employee', EmployeeViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-    path('', include(router.urls)),
+    path('api/v1/', include(router.urls)),
 ]
