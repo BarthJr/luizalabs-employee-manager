@@ -24,6 +24,7 @@ router.register(r'department', DepartmentViewSet)
 router.register(r'employee', EmployeeViewSet)
 
 urlpatterns = [
+    path('', include(router.urls), name='home'),
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('api/v1/', include(router.urls)),
