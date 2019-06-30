@@ -5,6 +5,12 @@
 
 The goal is to create a Django Admin panel and an API to manage employees.
 
+## Application available in Heroku
+**Applications**|**URL**
+:--|:--
+Django Admin panel|https://luizalabs-test-barthjr.herokuapp.com/admin/
+API|https://luizalabs-test-barthjr.herokuapp.com/api/v1/
+
 
 # Installation
 
@@ -24,7 +30,7 @@ pipenv shell
 # Acess to Admin Panel
 - **URL:** http://127.0.0.1:8000/admin/
 - **Username:** luiza.labs
-- **Password:** olhaseeenha
+- **Password:** clubedalulu
 
 
 # Endpoints RESTful
