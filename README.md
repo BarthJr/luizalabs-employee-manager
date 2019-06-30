@@ -27,10 +27,15 @@ pipenv shell
 pipenv sync -d
 cp contrib/env-sample .env
 python manage.py migrate
-echo "from django.contrib.auth.models import User; User.objects.create_superuser('luiza.labs', 'luiza.labs@luizalabs.com', 'coloqueasenha')" | python manage.py shell
+echo "from django.contrib.auth.models import User; User.objects.create_superuser('luiza.labs', 'luiza.labs@luizalabs.com', 'olheasenhaa')" | python manage.py shell
 pipenv run pytest
 python manage.py runserver
 ```
+# Acess to Admin Panel
+- **URL:** http://127.0.0.1:8000/admin/
+- **Username:** luiza.labs
+- **Password:** olheasenhaa
+
 
 # Endpoints RESTful
 ## Department
