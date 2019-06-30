@@ -12,29 +12,19 @@ The goal is to create a Django Admin panel and an API to manage employees.
 2. Change to the directory was created by the clone
 3. Install pipenv
 4. Activate virtualenv
-5. Install the dependencies
-6. Configure the instance with .env
-7. Create database
-8. Create superuser
-9. Run the tests
-10. Run the server
+5. Run application
 
 ``` console
 git clone https://github.com/BarthJr/luizalabs-employee-manager.git
 cd luizalabs-employee-manager
 pip install pipenv
 pipenv shell
-pipenv sync -d
-cp contrib/env-sample .env
-python manage.py migrate
-echo "from django.contrib.auth.models import User; User.objects.create_superuser('luiza.labs', 'luiza.labs@luizalabs.com', 'olheasenhaa')" | python manage.py shell
-pipenv run pytest
-python manage.py runserver
+./run.sh
 ```
 # Acess to Admin Panel
 - **URL:** http://127.0.0.1:8000/admin/
 - **Username:** luiza.labs
-- **Password:** olheasenhaa
+- **Password:** olhaseeenha
 
 
 # Endpoints RESTful
