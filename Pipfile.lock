@@ -262,11 +262,10 @@
         },
         "pytest-django": {
             "hashes": [
-                "sha256:264fb4c506db5d48a6364c311a0b00b7b48a52715bad8839b2d8bee9b99ed6bb",
-                "sha256:4adfe5fb3ed47f0ba55506dd3daf688b1f74d5e69148c10ad2dd2f79f40c0d62"
+                "sha256:10cb6e5baacd56ca1f0134ce448b050c31824ba4e480eb7e0fa3832f3a0f8b4c",
+                "sha256:4b1120c364404cfa9f54e2229b5c39151821bb17819e4bcf357e0f62a3e925a0"
             ],
-            "index": "pypi",
-            "version": "==3.5.1"
+            "version": "==4.5.0"
         },
         "six": {
             "hashes": [
